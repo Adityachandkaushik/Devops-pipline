@@ -1,0 +1,7 @@
+FROM mongo:6.0
+
+# Environment variables (example)
+ENV MONGO_INITDB_ROOT_USERNAME=admin
+ENV MONGO_INITDB_ROOT_PASSWORD=qwerty
+
+EXPOSE 27017
