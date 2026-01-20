@@ -16,7 +16,7 @@ mongoose.connect("mongodb://mongo:27017/devops-db", {
   .catch(err => console.log(err));
 
 app.get("/", (req, res) => {
-  res.send("Backend is running!");
+  res.send("Backend is ning!");
 });
 
 app.listen(PORT, () => {
